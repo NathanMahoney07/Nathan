@@ -1,0 +1,31 @@
+#Maturity Calculator 
+
+print("This Program will Calculate the Maturity of the User")
+print("Begin")
+
+print("Answer 3 questions on a scale of 1 - 10")
+print("Maturity is on a 0 - 2 scale")
+
+#variables
+age = int(input("What is your age: "))
+le = int(input("What is your life expirence: "))
+w = int(input("What is your wisdom: "))
+
+agle = le*w
+
+maturity = agle/age
+
+if age <= 29:
+    print("Your maturity is " + str(maturity))
+elif age in range(30, 50):
+    maturity = maturity * 1.5
+    print("Your maturity is: " + str(maturity))
+elif age in range(51, 70):
+    maturity = maturity * 2
+    print("Your maturity is: " + str(maturity))
+elif age in range(71, 100):
+    maturity = maturity * 2.5
+    print("Your maturity is: " + str(maturity))
+elif age >= 101:
+    print("Your Old")
+
