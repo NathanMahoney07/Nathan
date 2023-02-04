@@ -7,9 +7,9 @@ print("Answer 3 questions on a scale of 1 - 10")
 print("Maturity is on a 0 - 2 scale")
 
 #variables
-age = int(input("What is your age: "))
-le = int(input("What is your life expirence: "))
-w = int(input("What is your wisdom: "))
+age = float(input("What is your age: "))
+le = float(input("What is your life expirence: "))
+w = float(input("What is your wisdom: "))
 
 agle = le*w
 
